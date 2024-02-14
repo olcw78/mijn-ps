@@ -98,10 +98,10 @@ void _deque() {
   // -> 단순히 추가 원소를 넣고 나머지는 변경없는 deque.
 }
 
-int main() {
-  //   _vec();
-  // _vec_iter();
-  _list();
-
-  return 0;
-}
+//int main() {
+//  //   _vec();
+//  // _vec_iter();
+//  _list();
+//
+//  return 0;
+//}

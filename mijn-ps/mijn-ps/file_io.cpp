@@ -5,7 +5,7 @@
 #include <iostream>
 #include <string>
 
-int main() {
+void _file_io() {
 
   //   std::ifstream in("test.txt"); // C++ 은 C 와 다르게 fclose 직접 해줄
   //   필요가 없당. std::string s;
@@ -28,6 +28,4 @@ int main() {
   } else {
     std::cout << "파일을 찾을 수 없습니다." << std::endl;
   }
-
-  return 0;
 }

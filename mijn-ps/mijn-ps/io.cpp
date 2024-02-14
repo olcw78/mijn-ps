@@ -15,7 +15,7 @@
 // 입력을 수행.
 // operator>> 가 정의됨.
 // cin 은 istream 클래스의 객체 중 하나.
-int main() {
+void _io() {
   // 기본적인 cin cout 예시
   //   std::string s;
   //   while (true) {
@@ -112,6 +112,4 @@ int main() {
   std::cout << "두 번쨰 단어 맨 앞 글자: " << peek << std::endl;
   std::cin >> s;
   std::cout << "다시 읽으면: " << s << std::endl;
-
-  return 0;
 }
